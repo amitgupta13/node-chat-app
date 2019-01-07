@@ -19,7 +19,7 @@ describe('generateLocationMessage',()=>{
         const res = generateLocationMessage('amit', 1, 1);
             expect(res.createdAt).toBeA('number');
             expect(res).toInclude({
-                from:'amit',
+                from:'amit1',
                 url:'https://www.google.com/maps?q=1,1'
             });
     })

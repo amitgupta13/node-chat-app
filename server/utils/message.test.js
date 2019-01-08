@@ -16,7 +16,7 @@ describe('generate message', ()=>{
 
 describe('generateLocationMessage',()=>{
     it('should return the correct location', ()=>{
-        const res = generateLocationMessage('amit', 1, 1);
+        const res = generateLocationMessage('amit1', 1, 1);
             expect(res.createdAt).toBeA('number');
             expect(res).toInclude({
                 from:'amit1',
